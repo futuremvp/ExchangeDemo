@@ -1,0 +1,3 @@
+[submodule "ios-core/Third Party/Frank"]
+	path = ios-core/Third Party/Frank
+	url = https://github.com/moredip/Frank.git
