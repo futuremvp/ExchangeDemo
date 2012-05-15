@@ -1,17 +1,21 @@
 package au.com.suncorpbank.domain;
 
-import java.util.HashMap;
+import java.util.LinkedList;
 
 public class ExchangeRepo {
 
-    HashMap<String, Double> exchanges;
+    LinkedList<ExchangeRate> exchanges = new LinkedList<ExchangeRate>();
     
-    public void addNewExchange(String currency, double rate){
-        exchanges.put(currency, new Double(rate));
+    public void addNewExchange(ExchangeRate rate){
+        exchanges.add(rate);
     }
 
-    public HashMap getExchange(){
+    public LinkedList<ExchangeRate> getExchanges(){
         return exchanges;
+    }
+
+    public ExchangeRate getExchange(int index) {
+        return exchanges.get(index);
     }
 
 }

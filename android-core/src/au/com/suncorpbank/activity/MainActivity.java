@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import au.com.suncorpbank.ExchangeActivity;
 import au.com.suncorpbank.R;
 
 public class MainActivity extends Activity

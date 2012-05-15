@@ -59,29 +59,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="47" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="56" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="XmlParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/parser/XmlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="125" selection-end="125" vertical-scroll-proportion="0.2893401">
-              <folding />
+            <state line="72" column="78" selection-start="2733" selection-end="2733" vertical-scroll-proportion="1.0892389">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExchangeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/activity/ExchangeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="56" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,25 +84,27 @@
       <file leaf-file-name="ExchangeRepo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+            <state line="17" column="36" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExchangeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/ExchangeActivity.java">
+      <file leaf-file-name="ExchangeRateItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/widget/ExchangeRateItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="30" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="38" column="8" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/activity/MainActivity.java">
+      <file leaf-file-name="exchange_rate_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/exchange_rate_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="30" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+            <state line="5" column="36" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +113,16 @@
       <file leaf-file-name="exchange_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/exchange_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+            <state line="6" column="35" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/test_data.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="396" selection-end="406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,17 +138,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/ExchangeActivity.java" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/MainActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/exchange_screen.xml" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/XmlParser.java" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/Exchange.java" />
-        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRepo.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/test_data.xml" />
+        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRate.java" />
+        <option value="$PROJECT_DIR$/res/layout/exchange_rate_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/exchange_screen.xml" />
+        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRepo.java" />
+        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/widget/ExchangeRateItem.java" />
+        <option value="$PROJECT_DIR$/src/au/com/suncorpbank/activity/ExchangeActivity.java" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/parser/XmlParser.java" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -209,6 +227,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="suncorpbank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suncorpbank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,7 +507,9 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -506,8 +548,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67121214" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3121212" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -563,37 +605,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/ExchangeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/exchange_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="56" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.497545">
           <folding />
         </state>
       </provider>
@@ -605,10 +619,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../AndroidRef/android-sdk-mac_x86/platforms/android-8/android.jar!/org/w3c/dom/NodeList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="153" selection-end="153" vertical-scroll-proportion="0.12044374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="308" selection-end="714" vertical-scroll-proportion="0.5784469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/test_data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="396" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/exchange_rate_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/exchange_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/widget/ExchangeRateItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="8" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/activity/ExchangeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="56" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/parser/XmlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="125" selection-end="125" vertical-scroll-proportion="0.2893401">
-          <folding />
+        <state line="72" column="78" selection-start="2733" selection-end="2733" vertical-scroll-proportion="1.0892389">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
