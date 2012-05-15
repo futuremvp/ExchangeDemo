@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TWMainViewController.h"
 
 @interface TWAppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -18,6 +18,29 @@
 		F1CFD3C015621A7800CD1A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A715621A7800CD1A62 /* Foundation.framework */; };
 		F1CFD3C815621A7800CD1A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD3C615621A7800CD1A62 /* InfoPlist.strings */; };
 		F1CFD3CB15621A7800CD1A62 /* ExchangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD3CA15621A7800CD1A62 /* ExchangeDemoTests.m */; };
+		F1CFD42B15622B6C00CD1A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD3B115621A7800CD1A62 /* main.m */; };
+		F1CFD42C15622B6C00CD1A62 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD3B515621A7800CD1A62 /* TWAppDelegate.m */; };
+		F1CFD42E15622B6C00CD1A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A515621A7800CD1A62 /* UIKit.framework */; };
+		F1CFD42F15622B6C00CD1A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A715621A7800CD1A62 /* Foundation.framework */; };
+		F1CFD43015622B6C00CD1A62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A915621A7800CD1A62 /* CoreGraphics.framework */; };
+		F1CFD43215622B6C00CD1A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD3AE15621A7800CD1A62 /* InfoPlist.strings */; };
+		F1CFD44415622B9D00CD1A62 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD43C15622B9D00CD1A62 /* my_first.feature */; };
+		F1CFD44515622B9D00CD1A62 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */; };
+		F1CFD44615622B9D00CD1A62 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD44015622B9D00CD1A62 /* env.rb */; };
+		F1CFD44715622B9D00CD1A62 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */; };
+		F1CFD44815622B9D00CD1A62 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44215622B9D00CD1A62 /* libFrank.a */; };
+		F1CFD44915622B9D00CD1A62 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44315622B9D00CD1A62 /* libShelley.a */; };
+		F1CFD44B15622BCD00CD1A62 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */; };
+		F1CFD44F1562301D00CD1A62 /* TWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */; };
+		F1CFD4501562301D00CD1A62 /* TWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */; };
+		F1CFD4531562328C00CD1A62 /* TWExchangeRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4521562328C00CD1A62 /* TWExchangeRateViewController.m */; };
+		F1CFD4541562328C00CD1A62 /* TWExchangeRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4521562328C00CD1A62 /* TWExchangeRateViewController.m */; };
+		F1CFD4581562366500CD1A62 /* TWExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4571562366500CD1A62 /* TWExchangeRate.m */; };
+		F1CFD4591562366500CD1A62 /* TWExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4571562366500CD1A62 /* TWExchangeRate.m */; };
+		F1CFD45D156237B400CD1A62 /* TWExchangeRateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD45C156237B400CD1A62 /* TWExchangeRateParser.m */; };
+		F1CFD45E156237B400CD1A62 /* TWExchangeRateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD45C156237B400CD1A62 /* TWExchangeRateParser.m */; };
+		F1CFD4621562414600CD1A62 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4611562414600CD1A62 /* NSString+Trim.m */; };
+		F1CFD4631562414600CD1A62 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4611562414600CD1A62 /* NSString+Trim.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +70,24 @@
 		F1CFD3C715621A7800CD1A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1CFD3C915621A7800CD1A62 /* ExchangeDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeDemoTests.h; sourceTree = "<group>"; };
 		F1CFD3CA15621A7800CD1A62 /* ExchangeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeDemoTests.m; sourceTree = "<group>"; };
+		F1CFD43615622B6C00CD1A62 /* ExchangeDemo Frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExchangeDemo Frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFD43C15622B9D00CD1A62 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		F1CFD44015622B9D00CD1A62 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		F1CFD44215622B9D00CD1A62 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		F1CFD44315622B9D00CD1A62 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F1CFD44D1562301D00CD1A62 /* TWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMainViewController.h; sourceTree = "<group>"; };
+		F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMainViewController.m; sourceTree = "<group>"; };
+		F1CFD4511562328C00CD1A62 /* TWExchangeRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWExchangeRateViewController.h; sourceTree = "<group>"; };
+		F1CFD4521562328C00CD1A62 /* TWExchangeRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWExchangeRateViewController.m; sourceTree = "<group>"; };
+		F1CFD4561562366500CD1A62 /* TWExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWExchangeRate.h; sourceTree = "<group>"; };
+		F1CFD4571562366500CD1A62 /* TWExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWExchangeRate.m; sourceTree = "<group>"; };
+		F1CFD45B156237B400CD1A62 /* TWExchangeRateParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWExchangeRateParser.h; sourceTree = "<group>"; };
+		F1CFD45C156237B400CD1A62 /* TWExchangeRateParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWExchangeRateParser.m; sourceTree = "<group>"; };
+		F1CFD4601562414600CD1A62 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		F1CFD4611562414600CD1A62 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +111,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1CFD42D15622B6C00CD1A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFD44B15622BCD00CD1A62 /* CFNetwork.framework in Frameworks */,
+				F1CFD42E15622B6C00CD1A62 /* UIKit.framework in Frameworks */,
+				F1CFD42F15622B6C00CD1A62 /* Foundation.framework in Frameworks */,
+				F1CFD43015622B6C00CD1A62 /* CoreGraphics.framework in Frameworks */,
+				F1CFD44815622B9D00CD1A62 /* libFrank.a in Frameworks */,
+				F1CFD44915622B9D00CD1A62 /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F1CFD39615621A7800CD1A62 = {
 			isa = PBXGroup;
 			children = (
+				F1CFD45F1562411300CD1A62 /* Utilities */,
+				F1CFD45A1562376D00CD1A62 /* Parser */,
+				F1CFD455156234F200CD1A62 /* Domain */,
+				F1CFD44C15622F6800CD1A62 /* Controllers */,
+				F1CFD43A15622B9D00CD1A62 /* Frank */,
 				F1CFD3D815621B1500CD1A62 /* Configuration */,
 				F1CFD3AB15621A7800CD1A62 /* Application */,
 				F1CFD3C315621A7800CD1A62 /* Unit Tests */,
@@ -89,6 +148,7 @@
 			children = (
 				F1CFD3A115621A7800CD1A62 /* ExchangeDemo.app */,
 				F1CFD3BC15621A7800CD1A62 /* ExchangeDemoTests.octest */,
+				F1CFD43615622B6C00CD1A62 /* ExchangeDemo Frankified.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +156,7 @@
 		F1CFD3A415621A7800CD1A62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */,
 				F1CFD3A515621A7800CD1A62 /* UIKit.framework */,
 				F1CFD3A715621A7800CD1A62 /* Foundation.framework */,
 				F1CFD3A915621A7800CD1A62 /* CoreGraphics.framework */,
@@ -151,6 +212,81 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		F1CFD43A15622B9D00CD1A62 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD43B15622B9D00CD1A62 /* features */,
+				F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */,
+				F1CFD44215622B9D00CD1A62 /* libFrank.a */,
+				F1CFD44315622B9D00CD1A62 /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		F1CFD43B15622B9D00CD1A62 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD43C15622B9D00CD1A62 /* my_first.feature */,
+				F1CFD43D15622B9D00CD1A62 /* step_definitions */,
+				F1CFD43F15622B9D00CD1A62 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		F1CFD43D15622B9D00CD1A62 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		F1CFD43F15622B9D00CD1A62 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD44015622B9D00CD1A62 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		F1CFD44C15622F6800CD1A62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD44D1562301D00CD1A62 /* TWMainViewController.h */,
+				F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */,
+				F1CFD4511562328C00CD1A62 /* TWExchangeRateViewController.h */,
+				F1CFD4521562328C00CD1A62 /* TWExchangeRateViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1CFD455156234F200CD1A62 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD4561562366500CD1A62 /* TWExchangeRate.h */,
+				F1CFD4571562366500CD1A62 /* TWExchangeRate.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F1CFD45A1562376D00CD1A62 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD45B156237B400CD1A62 /* TWExchangeRateParser.h */,
+				F1CFD45C156237B400CD1A62 /* TWExchangeRateParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		F1CFD45F1562411300CD1A62 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD4601562414600CD1A62 /* NSString+Trim.h */,
+				F1CFD4611562414600CD1A62 /* NSString+Trim.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +326,23 @@
 			productReference = F1CFD3BC15621A7800CD1A62 /* ExchangeDemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F1CFD42915622B6C00CD1A62 /* ExchangeDemo Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CFD43315622B6C00CD1A62 /* Build configuration list for PBXNativeTarget "ExchangeDemo Frankified" */;
+			buildPhases = (
+				F1CFD42A15622B6C00CD1A62 /* Sources */,
+				F1CFD42D15622B6C00CD1A62 /* Frameworks */,
+				F1CFD43115622B6C00CD1A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExchangeDemo Frankified";
+			productName = ExchangeDemo;
+			productReference = F1CFD43615622B6C00CD1A62 /* ExchangeDemo Frankified.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,6 +367,7 @@
 			targets = (
 				F1CFD3A015621A7800CD1A62 /* ExchangeDemo */,
 				F1CFD3BB15621A7800CD1A62 /* ExchangeDemoTests */,
+				F1CFD42915622B6C00CD1A62 /* ExchangeDemo Frankified */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +386,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CFD3C815621A7800CD1A62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CFD43115622B6C00CD1A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFD43215622B6C00CD1A62 /* InfoPlist.strings in Resources */,
+				F1CFD44415622B9D00CD1A62 /* my_first.feature in Resources */,
+				F1CFD44515622B9D00CD1A62 /* launch_steps.rb in Resources */,
+				F1CFD44615622B9D00CD1A62 /* env.rb in Resources */,
+				F1CFD44715622B9D00CD1A62 /* frank_static_resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +426,11 @@
 			files = (
 				F1CFD3B215621A7800CD1A62 /* main.m in Sources */,
 				F1CFD3B615621A7800CD1A62 /* TWAppDelegate.m in Sources */,
+				F1CFD44F1562301D00CD1A62 /* TWMainViewController.m in Sources */,
+				F1CFD4531562328C00CD1A62 /* TWExchangeRateViewController.m in Sources */,
+				F1CFD4581562366500CD1A62 /* TWExchangeRate.m in Sources */,
+				F1CFD45D156237B400CD1A62 /* TWExchangeRateParser.m in Sources */,
+				F1CFD4621562414600CD1A62 /* NSString+Trim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +439,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CFD3CB15621A7800CD1A62 /* ExchangeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CFD42A15622B6C00CD1A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFD42B15622B6C00CD1A62 /* main.m in Sources */,
+				F1CFD42C15622B6C00CD1A62 /* TWAppDelegate.m in Sources */,
+				F1CFD4501562301D00CD1A62 /* TWMainViewController.m in Sources */,
+				F1CFD4541562328C00CD1A62 /* TWExchangeRateViewController.m in Sources */,
+				F1CFD4591562366500CD1A62 /* TWExchangeRate.m in Sources */,
+				F1CFD45E156237B400CD1A62 /* TWExchangeRateParser.m in Sources */,
+				F1CFD4631562414600CD1A62 /* NSString+Trim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +585,44 @@
 			};
 			name = Release;
 		};
+		F1CFD43415622B6C00CD1A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Application/ExchangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "Application/ExchangeDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "ExchangeDemo Frankified";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1CFD43515622B6C00CD1A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Application/ExchangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "Application/ExchangeDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "ExchangeDemo Frankified";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +649,15 @@
 			buildConfigurations = (
 				F1CFD3D215621A7800CD1A62 /* Debug */,
 				F1CFD3D315621A7800CD1A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CFD43315622B6C00CD1A62 /* Build configuration list for PBXNativeTarget "ExchangeDemo Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFD43415622B6C00CD1A62 /* Debug */,
+				F1CFD43515622B6C00CD1A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
