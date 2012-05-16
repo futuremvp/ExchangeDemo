@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Filter Summary" skipped="0" tests="1" time="21.897000">
+<testcase classname="Filter Summary.get properties for renting in list" name="get properties for renting in list" time="21.897000">
+</testcase>
+</testsuite>

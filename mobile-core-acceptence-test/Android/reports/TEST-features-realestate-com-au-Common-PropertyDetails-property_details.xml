@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Property Details" skipped="0" tests="2" time="29.678000">
+<testcase classname="Property Details.User views core property details" name="User views core property details" time="15.280000">
+</testcase>
+<testcase classname="Property Details.Show property number on bottom of details page" name="Show property number on bottom of details page" time="14.398000">
+</testcase>
+</testsuite>

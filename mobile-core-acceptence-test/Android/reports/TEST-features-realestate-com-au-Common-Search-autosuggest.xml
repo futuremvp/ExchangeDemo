@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Autosuggest Locality" skipped="0" tests="3" time="30.096000">
+<testcase classname="Autosuggest Locality.Autosuggest items should include add button" name="Autosuggest items should include add button" time="10.207000">
+</testcase>
+<testcase classname="Autosuggest Locality.No matching suggestions" name="No matching suggestions" time="9.722000">
+</testcase>
+<testcase classname="Autosuggest Locality.Handling of multi word suburbs or regions" name="Handling of multi word suburbs or regions" time="10.167000">
+</testcase>
+</testsuite>

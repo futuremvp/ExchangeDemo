@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Listing summary display" skipped="0" tests="5" time="162.767000">
+<testcase classname="Listing summary display.Scrollable list of property summaries should display" name="Scrollable list of property summaries should display" time="15.874000">
+</testcase>
+<testcase classname="Listing summary display.Property with all summary details populated" name="Property with all summary details populated" time="10.871000">
+</testcase>
+<testcase classname="Listing summary display.Property without all summary details populated" name="Property without all summary details populated" time="50.720000">
+</testcase>
+<testcase classname="Listing summary display.property only has 2.5 bedrooms as features" name="property only has 2.5 bedrooms as features" time="69.746000">
+</testcase>
+<testcase classname="Listing summary display.Very long property details are truncated" name="Very long property details are truncated" time="15.556000">
+</testcase>
+</testsuite>

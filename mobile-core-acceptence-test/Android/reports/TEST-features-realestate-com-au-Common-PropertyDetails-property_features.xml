@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Property Features" skipped="0" tests="3" time="47.734000">
+<testcase classname="Property Features.Property has all feature types" name="Property has all feature types" time="11.335000">
+</testcase>
+<testcase classname="Property Features.Property has some features" name="Property has some features" time="15.860000">
+</testcase>
+<testcase classname="Property Features.Property has no features" name="Property has no features" time="20.539000">
+</testcase>
+</testsuite>

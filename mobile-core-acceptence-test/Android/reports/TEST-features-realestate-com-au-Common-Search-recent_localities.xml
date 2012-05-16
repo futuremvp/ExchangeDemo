@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Recent localities" skipped="0" tests="1" time="22.507000">
+<testcase classname="Recent localities.Adding to recent localities by tapping on a suggestion" name="Adding to recent localities by tapping on a suggestion" time="22.507000">
+  <failure message="failed Adding to recent localities by tapping on a suggestion" type="failed">
+    <![CDATA[Scenario: Adding to recent localities by tapping on a suggestion
+
+Given I have just performed a search for "Abbotsford, VIC 3067"
+When I tap the search bar
+Then I should see "Abbotsford, VIC 3067" in the "Recent Locations" list
+
+Message:
+]]>
+    <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element containing text: 'Abbotsford, VIC 3067'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.35.10-g7b95729', java.version: '0'
+Driver info: driver.version: unknown
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.2', java.version: '1.6.0_29'
+Driver info: driver.version: RemoteWebDriver (NativeException)
+features/realestate-com-au/Common/Search/recent_localities.feature:16:in `Then I should see "Abbotsford, VIC 3067" in the "Recent Locations" list']]>
+  </failure>
+</testcase>
+</testsuite>

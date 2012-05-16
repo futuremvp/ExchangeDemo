@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Locality Search" skipped="0" tests="1" time="21.898000">
+<testcase classname="Locality Search.Multiple Locality Search" name="Multiple Locality Search" time="21.898000">
+</testcase>
+</testsuite>
