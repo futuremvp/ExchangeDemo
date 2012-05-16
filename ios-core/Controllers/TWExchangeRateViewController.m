@@ -53,8 +53,11 @@
 	}
 	
 	[[self tableView] reloadData];
-	
-	NSURL *url = [NSURL URLWithString:@"http://info.suncorp.com.au/bank/Datastreams/CurrencyService.ashx"];
+	    
+    NSDictionary *serviceInfo = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"ExchangeService"];
+    NSString *urlString = [serviceInfo valueForKey:@"URL"];
+    
+	NSURL *url = [NSURL URLWithString:[@"http://" stringByAppendingString:urlString]];
 	
 	NSURLRequest *request = [NSURLRequest requestWithURL:url 
 											 cachePolicy:NSURLRequestReloadIgnoringCacheData 

@@ -34,5 +34,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ExchangeService</key>
+	<dict>
+		<key>URL</key>
+		<string>${EXCHANGE_SERVICE_URL}</string>
+	</dict>
 </dict>
 </plist>

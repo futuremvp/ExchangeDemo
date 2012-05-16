@@ -18,5 +18,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>ExchangeService</key>
+	<dict>
+		<key>URL</key>
+		<string>${EXCHANGE_SERVICE_URL}</string>
+	</dict>
 </dict>
 </plist>
