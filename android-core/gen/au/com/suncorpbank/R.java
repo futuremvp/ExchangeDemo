@@ -18,6 +18,8 @@ public final class R {
         public static final int exchange_rate_item_value=0x7f050001;
         public static final int exchange_screen_exchange_rates=0x7f050003;
         public static final int exchange_screen_welcome=0x7f050002;
+        public static final int main_point_to_text=0x7f050006;
+        public static final int main_point_to_value=0x7f050005;
         public static final int main_start_button=0x7f050004;
     }
     public static final class layout {

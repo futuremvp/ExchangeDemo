@@ -77,6 +77,95 @@
          In all cases you must update the value of version-tag below to read 'custom' instead of an integer,
          in order to avoid having your file be overridden by tools such as "android update project"
     -->
+
+
+    <!-- Custom Android task to deal with the project target, and import the
+         proper rules.
+         This requires ant 1.6.0 or above. -->
+    <path id="android.antlibs">
+        <pathelement path="${sdk.dir}/tools/lib/anttasks.jar"/>
+        <pathelement path="${sdk.dir}/tools/lib/sdklib.jar"/>
+        <pathelement path="${sdk.dir}/tools/lib/androidprefs.jar"/>
+    </path>
+
+    <taskdef name="setup"
+             classname="com.android.ant.NewSetupTask"
+             classpathref="android.antlibs"/>
+
+    <taskdef name="aapt"
+             classname="com.android.ant.AaptExecTask"
+             classpathref="android.antlibs"/>
+
+    <target name="help">
+        <echo>Available commands in this build script:
+        </echo>
+        <echo>generate-testing:
+            Generate an apk (suncorp-testing.apk) with ${testing.search.url}
+        </echo>
+        <echo>generate-production:
+            Generate an apk (suncorp-production.apk) with ${production.search.url}
+        </echo>
+        <echo>generate-installers:
+            Generate both testing and production apk
+        </echo>
+        <echo>generate-R:
+            Generate the R.java
+        </echo>
+    </target>
+
+    <target name="generate-R" description="Generate the R.java file for this project's resources.">
+        <echo>Generating R.java / Manifest.java from the resources...</echo>
+        <mkdir dir="gen"/>
+        <!--The gen folder may not exist on CI Server-->
+
+        <!--<path id="project.libraries.res" path="../REA_Core/res"/>-->
+        <aapt executable="${sdk.dir}/platform-tools/aapt"
+              command="package"
+              verbose="false"
+              manifest="AndroidManifest.xml"
+              androidjar="${sdk.dir}/platforms/android-14/android.jar"
+              rfolder="gen"
+              nonConstantId="false">
+            <res path="res"/>
+        </aapt>
+    </target>
+
+    <target name="-init">
+        <property name="dir.output" value="./build/outputs/"/>
+        <property name="installer.name" value="android_core-release.apk"/>
+    </target>
+
+    <target name="-clean-up" depends="-init">
+        <delete dir="${dir.output}"/>
+        <mkdir dir="${dir.output}"/>
+    </target>
+
+    <target name="prod-conf">
+        <copy file="product.properties" overwrite="true" tofile="./src/settings.properties"/>
+    </target>
+
+    <target name="generate-production" depends="-init,clean">
+        <antcall target="prod-conf"/>
+        <antcall target="release"/>
+        <copy file="./bin/${installer.name}" tofile="${dir.output}/suncorp-production.apk"/>
+    </target>
+
+    <target name="test-conf">
+        <copy file="testing.properties" overwrite="true" tofile="./src/settings.properties"/>
+    </target>
+
+    <target name="generate-testing" depends="-init,clean">
+        <antcall target="test-conf"/>
+        <antcall target="release"/>
+        <copy file="./bin/${installer.name}" tofile="${dir.output}/suncorp-testing.apk"/>
+    </target>
+
+    <target name="generate-installers" depends="-clean-up">
+        <antcall target="generate-testing"/>
+        <antcall target="generate-production"/>
+    </target>
+
+
     <!-- version-tag: 1 -->
     <import file="${sdk.dir}/tools/ant/build.xml" />
 

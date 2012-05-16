@@ -5,11 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import au.com.suncorpbank.R;
+
+import static au.com.suncorpbank.util.Settings.getProperty;
 
 public class MainActivity extends Activity
 {
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -17,8 +19,10 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
 
         Button startBtn = (Button) findViewById(R.id.main_start_button);
+        TextView urlValue = (TextView) findViewById(R.id.main_point_to_value);
 
-        startBtn.setOnClickListener(new View.OnClickListener(){
+        urlValue.setText(getProperty("exchange.server.url"));
+        startBtn.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
                 startNewIntent();

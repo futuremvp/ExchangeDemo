@@ -12,9 +12,11 @@ import au.com.suncorpbank.domain.ExchangeRepo;
 import au.com.suncorpbank.parser.XmlParser;
 import au.com.suncorpbank.widget.ExchangeRateItem;
 
+import static au.com.suncorpbank.util.Settings.getProperty;
+
 public class ExchangeActivity extends Activity {
 
-    public final static String url = "http://info.suncorp.com.au/bank/Datastreams/CurrencyService.ashx";
+    private String url;
     private ListView rateExchangeList;
     private ExchangeRepo exchangeRepo;
 
@@ -35,6 +37,8 @@ public class ExchangeActivity extends Activity {
     }
 
     private void initData() {
+        url = getProperty("exchange.server.url");
+        System.out.println("url = " + url);
         XmlParser parser = new XmlParser();
         exchangeRepo = parser.getExchangeRepo(url);
     }
