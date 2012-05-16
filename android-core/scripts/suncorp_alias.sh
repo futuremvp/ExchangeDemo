@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SUNCORP_PACKAGE="au.com.suncorpbank.app"
+SUNCORP_PACKAGE="au.com.suncorpbank"
 SUNCORP_ACTIVITY="au.com.suncorpbank.activity.MainActivity"
 
 SUNCORP_PROJECT_DIR=$1
