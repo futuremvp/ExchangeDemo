@@ -1,0 +1,30 @@
+//
+//  Shared.xcconfig
+//  ExchangeDemo
+//
+//  Created by Cyril Wei on 5/16/12.
+//  Copyright (c) 2012 ThoughtWorks. All rights reserved.
+//
+
+ALWAYS_SEARCH_USER_PATHS = NO
+
+ARCHS[sdk=iphoneos*] = armv6 armv7
+ARCHS[sdk=iphonesimulator*] = i386
+
+SDKROOT = iphoneos
+IPHONEOS_DEPLOYMENT_TARGET = 5.1
+
+GCC_C_LANGUAGE_STANDARD = gnu99
+GCC_VERSION = com.apple.compilers.llvm.clang.1_0
+
+GCC_WARN_ABOUT_RETURN_TYPE = YES
+GCC_WARN_UNINITIALIZED_AUTOS = YES
+GCC_WARN_UNUSED_VARIABLE = YES
+
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = Application/ExchangeDemo-Prefix.pch
+INFOPLIST_FILE = Application/ExchangeDemo-Info.plist
+
+PRODUCT_NAME = Exchange
+
+EXCHANGE_SERVICE_URL = info.suncorp.com.au/bank/Datastreams/CurrencyService.ashx
