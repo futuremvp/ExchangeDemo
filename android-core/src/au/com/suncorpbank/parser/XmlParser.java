@@ -12,23 +12,57 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.io.StringReader;
 
 public class XmlParser {
 
-    private HttpClient httpsClient = new DefaultHttpClient();
+    private HttpClient httpsClient;
+
+    public XmlParser() {
+        this.httpsClient = new DefaultHttpClient();
+    }
+
+    public XmlParser(HttpClient httpsClient) {
+        this.httpsClient = httpsClient;
+    }
 
     public ExchangeRepo getExchangeRepo(String url) {
         String data = readFromUrl(url);
-        return parse(data, url);
+        System.out.println("data = " + data);
+        return parseFromData(data);
     }
 
-    private ExchangeRepo parse(String data, String url) {
+    public ExchangeRepo parseFromData(String data) {
+        try {
+            data = data.replaceFirst("^([\\W]+)<", "<");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            InputSource is = new InputSource(new StringReader(data));
+            Document doc = dBuilder.parse(is);
+            doc.getDocumentElement().normalize();
+
+            NodeList nList = doc.getElementsByTagName("ExchangeRates");
+
+            return parseNodes(nList);
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public ExchangeRepo parseFromUrl(String url) {
         try {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -54,14 +88,12 @@ public class XmlParser {
     private ExchangeRepo parseNodes(NodeList nList) {
         ExchangeRepo repo = new ExchangeRepo();
 
-        NodeList rateNodes = nList.item(0).getChildNodes();
-        NodeList rateNodes2 = rateNodes.item(0).getChildNodes();
+        NodeList exchangeRateNodes = nList.item(0).getChildNodes();
+        NodeList rateDetailNodes = exchangeRateNodes.item(0).getChildNodes();
 
-        System.out.println("position = " + nList.getLength() + " || " + rateNodes.getLength() + " || " + rateNodes2.getLength());
+        for (int temp = 0; temp < rateDetailNodes.getLength(); temp++) {
 
-        for (int temp = 0; temp < rateNodes2.getLength(); temp++) {
-
-            Node nNode = rateNodes2.item(temp);
+            Node nNode = rateDetailNodes.item(temp);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
                 Element eElement = (Element) nNode;
