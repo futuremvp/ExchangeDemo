@@ -3,5 +3,6 @@ bin
 build
 out
 reports
+archives
 *.ser
 xcuserdata
