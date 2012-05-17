@@ -1,2 +1,4 @@
+#!/bin/sh
+
 xcodebuild -target Frankified -sdk iphonesimulator -configuration Debug clean build
-killall 'iPhone Simulator'
+osascript -e 'tell app "iPhone Simulator" to quit'

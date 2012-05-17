@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1CFD3A015621A7800CD1A62"
-               BuildableName = "ED-Development.app"
+               BuildableName = "Development.app"
                BlueprintName = "Development"
                ReferencedContainer = "container:ExchangeDemo.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1CFD3BB15621A7800CD1A62"
-               BuildableName = "ED-UnitTests.octest"
+               BuildableName = "UnitTests.octest"
                BlueprintName = "UnitTests"
                ReferencedContainer = "container:ExchangeDemo.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD3A015621A7800CD1A62"
-            BuildableName = "ED-Development.app"
+            BuildableName = "Development.app"
             BlueprintName = "Development"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD3A015621A7800CD1A62"
-            BuildableName = "ED-Development.app"
+            BuildableName = "Development.app"
             BlueprintName = "Development"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD3A015621A7800CD1A62"
-            BuildableName = "ED-Development.app"
+            BuildableName = "Development.app"
             BlueprintName = "Development"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>

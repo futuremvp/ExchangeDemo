@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1CFD42915622B6C00CD1A62"
-               BuildableName = "ED-Frankified.app"
+               BuildableName = "Frankified.app"
                BlueprintName = "Frankified"
                ReferencedContainer = "container:ExchangeDemo.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD42915622B6C00CD1A62"
-            BuildableName = "ED-Frankified.app"
+            BuildableName = "Frankified.app"
             BlueprintName = "Frankified"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD42915622B6C00CD1A62"
-            BuildableName = "ED-Frankified.app"
+            BuildableName = "Frankified.app"
             BlueprintName = "Frankified"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD42915622B6C00CD1A62"
-            BuildableName = "ED-Frankified.app"
+            BuildableName = "Frankified.app"
             BlueprintName = "Frankified"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>

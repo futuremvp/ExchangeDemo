@@ -8,7 +8,7 @@
 
 #include "Shared.xcconfig"
 
-CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
 COPY_PHASE_STRIP = YES
 
 OTHER_CFLAGS = -DNS_BLOCK_ASSERTIONS=1

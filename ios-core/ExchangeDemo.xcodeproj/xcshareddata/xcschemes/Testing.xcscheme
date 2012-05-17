@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1CFD4BE1563437C00CD1A62"
-               BuildableName = "ED-Testing.app"
+               BuildableName = "Testing.app"
                BlueprintName = "Testing"
                ReferencedContainer = "container:ExchangeDemo.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD4BE1563437C00CD1A62"
-            BuildableName = "ED-Testing.app"
+            BuildableName = "Testing.app"
             BlueprintName = "Testing"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD4BE1563437C00CD1A62"
-            BuildableName = "ED-Testing.app"
+            BuildableName = "Testing.app"
             BlueprintName = "Testing"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1CFD4BE1563437C00CD1A62"
-            BuildableName = "ED-Testing.app"
+            BuildableName = "Testing.app"
             BlueprintName = "Testing"
             ReferencedContainer = "container:ExchangeDemo.xcodeproj">
          </BuildableReference>

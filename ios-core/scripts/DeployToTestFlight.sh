@@ -2,13 +2,13 @@
 
 TEST_FLIGHT_TEAM_TOKEN=f4864c99d40b3b7f044a3afb4ff4f581_OTAyODAyMDEyLTA1LTE2IDIzOjM4OjQ3LjMwODMyMw
 TEST_FLIGHT_API_TOKEN=02c88e8bc090887bbc294ef6b2a23d4c_NDQxMjkzMjAxMi0wNS0xNSAwMDo1MDozMy43Mjc1MDQ
-SIGNING_IDENTITY="iPhone Developer: Cyril Wei"
-PROVISIONING_PROFILE="scripts/Cyril_Profile.mobileprovision"
+SIGNING_IDENTITY="iPhone Distribution: ThoughtWorks Inc"
+PROVISIONING_PROFILE="scripts/In_House.mobileprovision"
 
-SCHEME_NAME=$1
-PRODUCT_NAME=$2
-
-xcodebuild -workspace ExchangeDemo.xcworkspace -scheme "${SCHEME_NAME}" archive
+case $TARGET_NAME in
+  *Production*) PRODUCT_NAME=Exchange;;
+  *) PRODUCT_NAME=$TARGET_NAME;;
+esac
 
 ARCHIVE_PARENT_DIR=$HOME/Library/Developer/Xcode/Archives
 ARCHIVE_PARENT_DIR=/`ls -td $ARCHIVE_PARENT_DIR/* | head -1`
@@ -43,7 +43,7 @@ echo "Created .dSYM for ${PRODUCT_NAME}"
 
 echo "Uploading to TestFlight"
 
-/usr/bin/curl "http://testflightapp.com/api/builds.json" \
+curl "http://testflightapp.com/api/builds.json" \
   -F file=@"archives/${PRODUCT_NAME}.ipa" \
   -F dsym=@"archives/${PRODUCT_NAME}.dSYM.zip" \
   -F api_token="${TEST_FLIGHT_API_TOKEN}" \

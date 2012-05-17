@@ -6,6 +6,6 @@
 //  Copyright (c) 2012 ThoughtWorks. All rights reserved.
 //
 
-PRODUCT_NAME = ED-Development
+PRODUCT_NAME = Development
 
 EXCHANGE_SERVICE_URL = localhost:3000/home/exchange.xml

@@ -92,9 +92,9 @@ Main() {
     
     if [ "${TEST_HOST}" != "" ]; then
 
-        export OTHER_TEST_FLAGS="-RegisterForSystemEvents"
-        RunTestsForApplication "${TEST_HOST}" "${TEST_BUNDLE_PATH}"
-
+		export OTHER_TEST_FLAGS="-RegisterForSystemEvents"
+		RunTestsForApplication "${TEST_HOST}" "${TEST_BUNDLE_PATH}"
+		
     else
         # If no TEST_HOST is specified, assume we're running the test bundle.
         
