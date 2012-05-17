@@ -15,8 +15,20 @@
                   android:screenOrientation="portrait"/>
     </application>
 
+    <!--for native driver-->
+    <instrumentation android:targetPackage="au.com.suncorpbank"
+                     android:name="au.com.suncorpbank.instrument.ScpInstrumentation"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <!--for native driver-->
+
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <supports-screens
+            android:smallScreens="false"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:anyDensity="true"/>
 </manifest>

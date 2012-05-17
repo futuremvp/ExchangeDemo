@@ -1,6 +1,6 @@
 package au.com.suncorpbank.instrument;
 
-import au.com.realestate.instrument.handler.IsElementDisplayed;
+import au.com.suncorpbank.instrument.handler.IsElementDisplayed;
 import com.google.android.testing.nativedriver.server.AndroidNativeDriverServlet;
 import org.openqa.selenium.remote.server.rest.ResultType;
 

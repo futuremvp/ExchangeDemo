@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="dev_lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/server-standalone.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/server-standalone.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
