@@ -102,9 +102,9 @@ public class XmlParser {
                 String currencyName = getTagValue("CurrencyName", eElement).trim();
                 String currencyCode = getTagValue("CurrencyCode", eElement).trim();
                 String buyChqAtRate = getTagValue("BuyChqAtRate", eElement).trim();
-                String sellAtRate = getTagValue("SellAtRate", eElement).trim();
+                String sellNotesAtRate = getTagValue("SellNotesAtRate", eElement).trim();
 
-                ExchangeRate rate = new ExchangeRate(countryName, currencyName, currencyCode, Double.valueOf(buyChqAtRate).doubleValue(), Double.valueOf(sellAtRate).doubleValue());
+                ExchangeRate rate = new ExchangeRate(countryName, currencyName, currencyCode, Double.valueOf(buyChqAtRate).doubleValue(), Double.valueOf(sellNotesAtRate).doubleValue());
 
                 repo.addNewExchange(rate);
             }

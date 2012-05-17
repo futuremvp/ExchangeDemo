@@ -6,14 +6,14 @@ public class ExchangeRate {
     private String currencyName;
     private String currencyCode;
     private double buyChqAtRate;
-    private double sellAtRate;
+    private double sellNotesAtRate;
 
-    public ExchangeRate(String country, String currencyName, String currencyCode, double buyChqAtRate, double sellAtRate) {
+    public ExchangeRate(String country, String currencyName, String currencyCode, double buyChqAtRate, double sellNotesAtRate) {
         this.country = country;
         this.currencyName = currencyName;
         this.currencyCode = currencyCode;
         this.buyChqAtRate = buyChqAtRate;
-        this.sellAtRate = sellAtRate;
+        this.sellNotesAtRate = sellNotesAtRate;
     }
 
     public String getCountry() {
@@ -24,7 +24,7 @@ public class ExchangeRate {
         return currencyCode;
     }
 
-    public double getBuyChqAtRate() {
-        return buyChqAtRate;
+    public double getSellNotesAtRate() {
+        return sellNotesAtRate;
     }
 }

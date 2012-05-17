@@ -28,7 +28,7 @@ public class XmlParserTest {
 
         assertThat(repo.getExchange(0).getCountry(), is("Europe"));
         assertThat(repo.getExchange(1).getCountry(), is("U.S.A"));
-        assertThat(repo.getExchange(0).getBuyChqAtRate(), is(0.8091));
-        assertThat(repo.getExchange(1).getBuyChqAtRate(), is(1.0196));
+        assertThat(repo.getExchange(0).getSellNotesAtRate(), is(0.7491));
+        assertThat(repo.getExchange(1).getSellNotesAtRate(), is(0.959));
     }
 }

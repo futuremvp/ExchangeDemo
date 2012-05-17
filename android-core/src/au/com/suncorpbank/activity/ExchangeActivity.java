@@ -66,7 +66,7 @@ public class ExchangeActivity extends Activity {
             ExchangeRate rate = exchangeRepo.getExchange(position);
             String label = rate.getCountry() + " (" + rate.getCurrencyCode() + ") ";
 
-            String value = String.valueOf(rate.getBuyChqAtRate());
+            String value = String.valueOf(rate.getSellNotesAtRate());
 
             if (convertView == null) {
                 convertView = new ExchangeRateItem(getApplicationContext(), label, value);

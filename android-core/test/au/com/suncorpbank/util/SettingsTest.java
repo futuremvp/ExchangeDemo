@@ -11,6 +11,6 @@ public class SettingsTest {
     public void testGetProperty() throws Exception {
         String url = getProperty("exchange.server.url");
 
-        assertThat(url, is("http://info.suncorp.com.au/bank/Datastreams/CurrencyService.ashx"));
+        assertThat(url, is("http://10.167.114.27:3000/home/exchange.xml"));
     }
 }

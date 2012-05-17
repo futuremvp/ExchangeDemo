@@ -253,7 +253,7 @@
         </cobertura-instrument>
     </target>
 
-    <target name="test" depends="clean, init,compile, include_xml, include_properties">
+    <target name="test" depends="clean,init,test_setting, compile, include_xml, include_properties">
         <echo message="${sdk.dir}"/>
         <junit fork="yes" dir="${basedir}" failureProperty="test.failed" haltonerror="true" haltonfailure="true"
                printsummary="yes" forkmode="perBatch"
@@ -298,6 +298,10 @@
             </fileset>
             <report format="frames" todir="${reports.html.dir}"/>
         </junitreport>
+    </target>
+
+    <target name="test_setting">
+        <copy file="testing.properties" overwrite="true" tofile="./src/settings.properties"/>
     </target>
 
     <target name="include_xml">
