@@ -3,14 +3,11 @@ package au.com.realestate.test.framework;
 import au.com.realestate.instrument.client.ReaHttpCommandExecutor;
 import com.google.android.testing.nativedriver.client.AndroidNativeDriver;
 import com.google.android.testing.nativedriver.client.AndroidNativeDriverBuilder;
-import junit.framework.TestCase;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class ReaTestPlatform {
-    public static final String AUS_MAIN_ACTIVITY = "au.com.realestate.aus.activity.AusMainActivity";
-    public static final String CASA_MAIN_ACTIVITY = "it.casa.app.activity.CasaMainActivity";
 
     private static AndroidNativeDriver driver;
 

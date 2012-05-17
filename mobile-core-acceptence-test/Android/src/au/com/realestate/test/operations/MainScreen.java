@@ -1,6 +1,7 @@
 package au.com.realestate.test.operations;
 
 import au.com.realestate.instrument.client.ReaAndroidElement;
+import au.com.realestate.test.Constants;
 import au.com.realestate.test.framework.Function;
 import com.google.android.testing.nativedriver.common.AndroidNativeBy;
 
@@ -9,20 +10,10 @@ import java.util.List;
 public class MainScreen extends ReaBaseScreen {
 
     private String activityString;
-    public static final String AUS_MAIN_ACTIVITY = "au.com.realestate.aus.activity.AusMainActivity";
-    public static final String CASA_MAIN_ACTIVITY = "it.casa.app.activity.CasaMainActivity";
 
 
     public MainScreen() {
-        this.activityString = getMainActivityString();
-    }
-    
-    protected String getMainActivityString() {
-        String app = System.getProperty("app");
-        if ("aus".equalsIgnoreCase(app)) {
-            return AUS_MAIN_ACTIVITY;
-        }
-        return CASA_MAIN_ACTIVITY;
+        this.activityString = Constants.MAIN_ACTIVITY;
     }
 
 
@@ -31,7 +22,7 @@ public class MainScreen extends ReaBaseScreen {
         helper.waitUntil(new Function() {
             @Override
             public boolean apply() {
-                return !helper.findElementById("main_screen_landing_page").isDisplayed();
+                return helper.findElementById("main_start_button").isDisplayed();
             }
 
             @Override

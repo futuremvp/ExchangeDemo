@@ -8,7 +8,7 @@
 
     <property name="scenario" value=""/>
     <property name="tag" value=""/>
-    <property name="feature" value=""/>
+    <property name="feature" value="../features/"/>
     <property name="name" value=""/>
 
     <path id="test.classpath">
@@ -30,16 +30,16 @@
         <echo>deploy_scp:
             Build and deploy the latest rea-testing.apk to emulator
         </echo>
-        <echo>test_aus:
+        <echo>test_scp:
             Run adb instrument and start the functional test on Aus
         Optional:
             -Dscenario="Your intent scenario" to test the specified scenario
             -Dfeature ="Your intent feature file" to test the specified feature
         </echo>
-        <echo>test_aus_without_execute_connection:
+        <echo>test_scp_without_execute_connection:
             Directly start the functional test on Aus
         </echo>
-        <echo>deploy_test_aus:
+        <echo>deploy_test_scp:
             call deploy_aus and then run the functional test on the Aus product.
         </echo>
     </target>
@@ -87,7 +87,17 @@
         </exec>
     </target>
 
-    <target name="deploy_test_aus" depends="compile,deploy_scp,test_aus"/>
+    <target name="deploy_test_scp" depends="compile,deploy_scp,pause_system,test_scp"/>
+	
+	<!-- don't know why but have to stop process for 1 second to avoid repeatable issue -->
+	<target name="pause_system">
+		<exec executable="sleep">
+            <arg value="1"/>
+        </exec>
+		<exec executable="echo">
+			<arg value="done"/>
+		</exec>
+	</target>
 
     <macrodef name="cuke">
 
@@ -117,11 +127,11 @@
         </sequential>
     </macrodef>
 
-    <target name="test_aus" depends="compile">
+    <target name="test_scp" depends="compile">
         <cuke target="aus" connection="true"/>
     </target>
 
-    <target name="test_aus_without_execute_connection" depends="compile">
+    <target name="test_scp_without_execute_connection" depends="compile">
         <cuke target="aus" connection="false"/>
     </target>
 </project>

@@ -4,7 +4,7 @@ Feature: Exchange Display
   I want to see the rate in the exchange screen
 
 @automated @quit_app_from_main_screen
-Scenario: Term Search from list view
+Scenario: Rate identification from list view
   Given I started the app
   When  I click "Start" button
   And I wait for 3 second

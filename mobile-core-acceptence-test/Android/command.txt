@@ -1,2 +1,2 @@
-adb shell am instrument au.com.suncorpbank/au.com.suncorpbank.instrument.ScpInstrumentation;adb forward tcp:54129 tcp:54129 
+adb shell am instrument au.com.suncorpbank/au.com.suncorpbank.instrument.ScpInstrumentation;adb forward tcp:54129 tcp:54129
 jruby -J-Dapp=aus -J-Dport=54129 -S cuke4duke --verbose --jar libs --require gen ../features/ --color --format pretty -t @automated

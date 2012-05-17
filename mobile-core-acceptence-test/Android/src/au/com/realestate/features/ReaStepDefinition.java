@@ -1,8 +1,8 @@
 package au.com.realestate.features;
 
+import au.com.realestate.test.Constants;
 import au.com.realestate.test.framework.Function;
 import au.com.realestate.test.framework.ReaNativeDriverHelper;
-import au.com.realestate.test.framework.ReaTestPlatform;
 import au.com.realestate.test.operations.GotoSearchScreen;
 import au.com.realestate.test.operations.SearchScreen;
 import au.com.realestate.test.operations.MainScreen;
@@ -26,10 +26,7 @@ public class ReaStepDefinition extends Steps {
 
     protected String getMainActivityString() {
         String app = System.getProperty("app");
-        if ("aus".equalsIgnoreCase(app)) {
-            return ReaTestPlatform.AUS_MAIN_ACTIVITY;
-        }
-        return ReaTestPlatform.CASA_MAIN_ACTIVITY;
+        return Constants.MAIN_ACTIVITY;
     }
 
     protected void searchByTerm(String term) {

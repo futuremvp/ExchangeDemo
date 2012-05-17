@@ -101,6 +101,11 @@ public class Cuke4DukeTask extends Task {
         parameters.addAll(Arrays.asList(jrubyCommand, "-J-Dapp=" + target, "-J-Dport=" + port, "-S", "cuke4duke", "--verbose", "--jar", libPath, "--require", classPath,
                 "--color", "--format", "pretty", "--format", "junit", "--out", reportDir, "-t"));
 
+		System.out.println("run command: "+ "-J-Dapp=" + target + " " + "-J-Dport=" + port +
+				" " + "-S" + " " + "cuke4duke" + " " + "--verbose" + " " + "--jar" + " " + libPath + 
+				" " + "--require" + " " + classPath + " " + "--color" + " " + "--format" + " " + "pretty" + 
+				" " + "--format" + " " + "junit" + " " + "--out" + " " + reportDir + " " + "-t");
+
         if (hasValue(tag)) {
             parameters.add(tag);
         } else {
@@ -110,7 +115,7 @@ public class Cuke4DukeTask extends Task {
         if (hasValue(feature)) {
             parameters.add(feature);
         } else {
-            parameters.add("features/" + folder);
+            parameters.add("../features/" + folder);
         }
 
         if (hasValue(scenario)) {
@@ -177,33 +182,20 @@ public class Cuke4DukeTask extends Task {
 
     private void configureTest() {
         if (target.equals("aus")) {
-            registerAusConnection();
+            registerConnection();
             port = 54129;
-            folder = "realestate-com-au";
-        } else {
-            registerCasaConnection();
-            port = 54130;
-            folder = "casa-it";
+            folder = "";
         }
     }
 
-    private void registerAusConnection() {
+    private void registerConnection() {
         if (!connection) return;
-        System.out.println("register aus connection");
+        System.out.println("register scp connection");
         try {
-            Runtime.getRuntime().exec(new String[]{adbCommand, "shell", "am", "instrument", "au.com.realestate.app/au.com.realestate.instrument.ReaInstrumentation"});
+            Runtime.getRuntime().exec(new String[]{adbCommand, "shell", "am", "instrument", "au.com.suncorpbank/au.com.suncorpbank.instrument.ScpInstrumentation"});
+            System.out.println(adbCommand + " shell am instrument au.com.suncorpbank/au.com.suncorpbank.instrument.ScpInstrumentation");
             Runtime.getRuntime().exec(new String[]{adbCommand, "forward", "tcp:54129", "tcp:54129"});
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void registerCasaConnection() {
-        if (!connection) return;
-        System.out.println("register casa connection");
-        try {
-            Runtime.getRuntime().exec(new String[]{adbCommand, "shell", "am", "instrument", "it.casa.app/au.com.realestate.instrument.ReaInstrumentation"});
-            Runtime.getRuntime().exec(new String[]{adbCommand, "forward", "tcp:54130", "tcp:54129"});
+            System.out.println("adb forward tcp:54129 tcp:54129");
         } catch (IOException e) {
             e.printStackTrace();
         }
