@@ -7,6 +7,6 @@ Feature: Exchange Display
 Scenario: Term Search from list view
   Given I started the app
   When  I click "Start" button
-  And I wait for 10 second
+  And I wait for 3 second
   Then  I should see a list of exchange rates
   And   I should see "Europe (EUR)" with the value of "0.7491"
