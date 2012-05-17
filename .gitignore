@@ -5,4 +5,5 @@ out
 reports
 archives
 *.ser
+*.class
 xcuserdata
