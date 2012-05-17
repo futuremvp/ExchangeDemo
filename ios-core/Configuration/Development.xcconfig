@@ -7,3 +7,5 @@
 //
 
 PRODUCT_NAME = ED-Development
+
+EXCHANGE_SERVICE_URL = localhost:3000/home/exchange.xml

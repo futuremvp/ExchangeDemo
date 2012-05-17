@@ -8,5 +8,8 @@
 
 PRODUCT_NAME = ED-Frankified
 
-LIBRARY_SEARCH_PATHS = "$(inherited)" "$(SRCROOT)/Frank"
+EXCHANGE_SERVICE_URL = localhost:3000/home/exchange.xml
+
+LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../mobile-core-acceptence-test/iOS/Frank"
+
 OTHER_LDFLAGS = -all_load -ObjC

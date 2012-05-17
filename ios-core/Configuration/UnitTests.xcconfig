@@ -15,5 +15,3 @@ TEST_HOST = "$(BUNDLE_LOADER)"
 WRAPPER_EXTENSION = octest
 
 FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"
-
-

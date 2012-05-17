@@ -7,6 +7,11 @@ Given /^I launch the app$/ do
   launch_app app_path
 end
 
+Given /^I started the app$/ do
+  # latest sdk and iphone by default
+  launch_app app_path
+end
+
 Given /^I launch the app using iOS (\d\.\d)$/ do |sdk|
   # You can grab a list of the installed SDK with sim_launcher
   # > run sim_launcher from the command line
@@ -17,4 +22,16 @@ end
 
 Given /^I launch the app using iOS (\d\.\d) and the (iphone|ipad) simulator$/ do |sdk, version|
   launch_app app_path, sdk, version
+end
+
+When /^I click "([^\"]*)" button$/ do |buttonName|
+  steps %Q{
+    When I touch the button marked "#{buttonName}"
+  }
+end
+
+Then /^I can see a "([^\"]*)" button in the launch screen$/ do |buttonName|
+  steps %Q{
+    Then I should see a "#{buttonName}" button
+  }  
 end

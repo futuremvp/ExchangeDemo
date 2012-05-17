@@ -9,4 +9,4 @@ Scenario: Term Search from list view
   When  I click "Start" button
   And I wait for 10 second
   Then  I should see a list of exchange rates
-  And   I should see "Euor" with the value of "0.756"
+  And   I should see "Europe (EUR)" with the value of "0.7491"

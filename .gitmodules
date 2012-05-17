@@ -1,3 +1,6 @@
 [submodule "ios-core/Third Party/Frank"]
 	path = ios-core/Third Party/Frank
 	url = https://github.com/moredip/Frank.git
+[submodule "ios-core/Third Party/OCUnit2JUnit"]
+	path = ios-core/Third Party/OCUnit2JUnit
+	url = https://github.com/ciryon/OCUnit2JUnit.git

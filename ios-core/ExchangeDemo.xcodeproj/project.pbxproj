@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15D6CB9156483360017D77A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */; };
 		F1CFD3A615621A7800CD1A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A515621A7800CD1A62 /* UIKit.framework */; };
 		F1CFD3A815621A7800CD1A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A715621A7800CD1A62 /* Foundation.framework */; };
 		F1CFD3AA15621A7800CD1A62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A915621A7800CD1A62 /* CoreGraphics.framework */; };
@@ -24,13 +25,6 @@
 		F1CFD42F15622B6C00CD1A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A715621A7800CD1A62 /* Foundation.framework */; };
 		F1CFD43015622B6C00CD1A62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A915621A7800CD1A62 /* CoreGraphics.framework */; };
 		F1CFD43215622B6C00CD1A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD3AE15621A7800CD1A62 /* InfoPlist.strings */; };
-		F1CFD44415622B9D00CD1A62 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD43C15622B9D00CD1A62 /* my_first.feature */; };
-		F1CFD44515622B9D00CD1A62 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */; };
-		F1CFD44615622B9D00CD1A62 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD44015622B9D00CD1A62 /* env.rb */; };
-		F1CFD44715622B9D00CD1A62 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */; };
-		F1CFD44815622B9D00CD1A62 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44215622B9D00CD1A62 /* libFrank.a */; };
-		F1CFD44915622B9D00CD1A62 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44315622B9D00CD1A62 /* libShelley.a */; };
-		F1CFD44B15622BCD00CD1A62 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */; };
 		F1CFD44F1562301D00CD1A62 /* TWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */; };
 		F1CFD4501562301D00CD1A62 /* TWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */; };
 		F1CFD4531562328C00CD1A62 /* TWExchangeRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD4521562328C00CD1A62 /* TWExchangeRateViewController.m */; };
@@ -74,6 +68,9 @@
 		F1CFD4DD1563438400CD1A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A715621A7800CD1A62 /* Foundation.framework */; };
 		F1CFD4DE1563438400CD1A62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD3A915621A7800CD1A62 /* CoreGraphics.framework */; };
 		F1CFD4E01563438400CD1A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD3AE15621A7800CD1A62 /* InfoPlist.strings */; };
+		F1CFD55B1563CA2500CD1A62 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1CFD5551563CA2500CD1A62 /* frank_static_resources.bundle */; };
+		F1CFD55C1563CA2500CD1A62 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD5561563CA2500CD1A62 /* libFrank.a */; };
+		F1CFD55D1563CA2500CD1A62 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFD5571563CA2500CD1A62 /* libShelley.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,12 +101,6 @@
 		F1CFD3C915621A7800CD1A62 /* NSStringTrimTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringTrimTests.h; sourceTree = "<group>"; };
 		F1CFD3CA15621A7800CD1A62 /* NSStringTrimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTrimTests.m; sourceTree = "<group>"; };
 		F1CFD43615622B6C00CD1A62 /* ED-Frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ED-Frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1CFD43C15622B9D00CD1A62 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
-		F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
-		F1CFD44015622B9D00CD1A62 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
-		F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
-		F1CFD44215622B9D00CD1A62 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
-		F1CFD44315622B9D00CD1A62 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
 		F1CFD44A15622BCD00CD1A62 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F1CFD44D1562301D00CD1A62 /* TWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMainViewController.h; sourceTree = "<group>"; };
 		F1CFD44E1562301D00CD1A62 /* TWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMainViewController.m; sourceTree = "<group>"; };
@@ -133,6 +124,9 @@
 		F1CFD4E41563438400CD1A62 /* ED-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ED-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFD4E61563442600CD1A62 /* UnitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UnitTests.xcconfig; sourceTree = "<group>"; };
 		F1CFD4E71563443000CD1A62 /* Frankified.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Frankified.xcconfig; sourceTree = "<group>"; };
+		F1CFD5551563CA2500CD1A62 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		F1CFD5561563CA2500CD1A62 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		F1CFD5571563CA2500CD1A62 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,12 +154,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1CFD44B15622BCD00CD1A62 /* CFNetwork.framework in Frameworks */,
+				F15D6CB9156483360017D77A /* CFNetwork.framework in Frameworks */,
 				F1CFD42E15622B6C00CD1A62 /* UIKit.framework in Frameworks */,
 				F1CFD42F15622B6C00CD1A62 /* Foundation.framework in Frameworks */,
 				F1CFD43015622B6C00CD1A62 /* CoreGraphics.framework in Frameworks */,
-				F1CFD44815622B9D00CD1A62 /* libFrank.a in Frameworks */,
-				F1CFD44915622B9D00CD1A62 /* libShelley.a in Frameworks */,
+				F1CFD55C1563CA2500CD1A62 /* libFrank.a in Frameworks */,
+				F1CFD55D1563CA2500CD1A62 /* libShelley.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,11 +199,11 @@
 		F1CFD39615621A7800CD1A62 = {
 			isa = PBXGroup;
 			children = (
+				F1CFD54E1563CA2500CD1A62 /* Frank */,
 				F1CFD45F1562411300CD1A62 /* Utilities */,
 				F1CFD45A1562376D00CD1A62 /* Parser */,
 				F1CFD455156234F200CD1A62 /* Domain */,
 				F1CFD44C15622F6800CD1A62 /* Controllers */,
-				F1CFD43A15622B9D00CD1A62 /* Frank */,
 				F1CFD3D815621B1500CD1A62 /* Configuration */,
 				F1CFD3AB15621A7800CD1A62 /* Application */,
 				F1CFD3C315621A7800CD1A62 /* Unit Tests */,
@@ -299,43 +293,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		F1CFD43A15622B9D00CD1A62 /* Frank */ = {
-			isa = PBXGroup;
-			children = (
-				F1CFD43B15622B9D00CD1A62 /* features */,
-				F1CFD44115622B9D00CD1A62 /* frank_static_resources.bundle */,
-				F1CFD44215622B9D00CD1A62 /* libFrank.a */,
-				F1CFD44315622B9D00CD1A62 /* libShelley.a */,
-			);
-			path = Frank;
-			sourceTree = "<group>";
-		};
-		F1CFD43B15622B9D00CD1A62 /* features */ = {
-			isa = PBXGroup;
-			children = (
-				F1CFD43C15622B9D00CD1A62 /* my_first.feature */,
-				F1CFD43D15622B9D00CD1A62 /* step_definitions */,
-				F1CFD43F15622B9D00CD1A62 /* support */,
-			);
-			path = features;
-			sourceTree = "<group>";
-		};
-		F1CFD43D15622B9D00CD1A62 /* step_definitions */ = {
-			isa = PBXGroup;
-			children = (
-				F1CFD43E15622B9D00CD1A62 /* launch_steps.rb */,
-			);
-			path = step_definitions;
-			sourceTree = "<group>";
-		};
-		F1CFD43F15622B9D00CD1A62 /* support */ = {
-			isa = PBXGroup;
-			children = (
-				F1CFD44015622B9D00CD1A62 /* env.rb */,
-			);
-			path = support;
-			sourceTree = "<group>";
-		};
 		F1CFD44C15622F6800CD1A62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +329,17 @@
 				F1CFD4611562414600CD1A62 /* NSString+Trim.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1CFD54E1563CA2500CD1A62 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFD5551563CA2500CD1A62 /* frank_static_resources.bundle */,
+				F1CFD5561563CA2500CD1A62 /* libFrank.a */,
+				F1CFD5571563CA2500CD1A62 /* libShelley.a */,
+			);
+			name = Frank;
+			path = "../mobile-core-acceptence-test/iOS/Frank";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +388,7 @@
 				F1CFD42A15622B6C00CD1A62 /* Sources */,
 				F1CFD42D15622B6C00CD1A62 /* Frameworks */,
 				F1CFD43115622B6C00CD1A62 /* Resources */,
+				F15D6CB7156479F90017D77A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -535,10 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CFD43215622B6C00CD1A62 /* InfoPlist.strings in Resources */,
-				F1CFD44415622B9D00CD1A62 /* my_first.feature in Resources */,
-				F1CFD44515622B9D00CD1A62 /* launch_steps.rb in Resources */,
-				F1CFD44615622B9D00CD1A62 /* env.rb in Resources */,
-				F1CFD44715622B9D00CD1A62 /* frank_static_resources.bundle in Resources */,
+				F1CFD55B1563CA2500CD1A62 /* frank_static_resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +535,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		F15D6CB7156479F90017D77A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ${PROJECT_DIR}/scripts/RunFrank.sh";
+		};
 		F1CFD3BA15621A7800CD1A62 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "\"${SRCROOT}/scripts/RunPlatformUnitTests\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -739,6 +718,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1CFD4E71563443000CD1A62 /* Frankified.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../mobile-core-acceptence-test/iOS/Frank\"",
+				);
 			};
 			name = Debug;
 		};
@@ -746,6 +729,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1CFD4E71563443000CD1A62 /* Frankified.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../mobile-core-acceptence-test/iOS/Frank\"",
+				);
 			};
 			name = Release;
 		};
