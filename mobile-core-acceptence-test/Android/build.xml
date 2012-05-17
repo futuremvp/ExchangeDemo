@@ -27,7 +27,7 @@
         <echo>emulator -Dname=[Your device name]
             Start the emulator with name [above]
         </echo>
-        <echo>deploy_aus:
+        <echo>deploy_scp:
             Build and deploy the latest rea-testing.apk to emulator
         </echo>
         <echo>test_aus:
@@ -69,14 +69,14 @@
     </target>
 
     <target name="deploy_scp">
-        <ant antfile="${android.core.dir}/src/REA_Aus/build.xml" target="generate-testing" usenativebasedir="true"/>
+        <ant antfile="${android.core.dir}/build.xml" target="generate-testing" usenativebasedir="true"/>
         <exec executable="${sdk.dir}/platform-tools/adb">
             <arg value="uninstall"/>
             <arg value="au.com.suncorpbank"/>
         </exec>
         <exec executable="${sdk.dir}/platform-tools/adb">
             <arg value="install"/>
-            <arg value="${aus.apk.output}/suncorp-testing.apk"/>
+            <arg value="${apk.output}/suncorp-testing.apk"/>
         </exec>
         <exec executable="${sdk.dir}/platform-tools/adb">
             <arg value="shell"/>
@@ -123,13 +123,5 @@
 
     <target name="test_aus_without_execute_connection" depends="compile">
         <cuke target="aus" connection="false"/>
-    </target>
-
-    <target name="test_casa" depends="compile">
-        <cuke target="casa" connection="true"/>
-    </target>
-
-    <target name="test_casa_without_execute_connection" depends="compile">
-        <cuke target="casa" connection="false"/>
     </target>
 </project>
