@@ -121,7 +121,7 @@
 		F1CFD49215632E5D00CD1A62 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		F1CFD4BC1563437200CD1A62 /* Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFD4D01563437C00CD1A62 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1CFD4E41563438400CD1A62 /* ED-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ED-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFD4E41563438400CD1A62 /* ED-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ED-Staging.app"; path = Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFD4E61563442600CD1A62 /* UnitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UnitTests.xcconfig; sourceTree = "<group>"; };
 		F1CFD4E71563443000CD1A62 /* Frankified.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Frankified.xcconfig; sourceTree = "<group>"; };
 		F1CFD5551563CA2500CD1A62 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };

@@ -14,7 +14,7 @@
 - (void)test_should_trim_spaces
 {
     NSString *stringWithSpace = @"  I have spaces    ";
-    NSString *expected = @"I have spaces ";
+    NSString *expected = @"I have spaces";
     
     STAssertEqualObjects(expected, [stringWithSpace trim], nil);
 }
