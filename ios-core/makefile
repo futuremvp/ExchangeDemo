@@ -7,6 +7,7 @@ clean:
 .PHONY: test
 test:
 	sh ./scripts/RunUnitTests.sh
+	if grep -q -w failure test-reports/*; then exit 1; fi
 
 .PHONY: cucumber
 cucumber:
@@ -20,6 +21,9 @@ archive:
 .PHONY: testflight
 testflight:
 	sh ./scripts/DeployToTestFlight.sh
+
+.PHONY: deploy
+deploy: archive testflight
 
 .PHONY: proj
 proj:

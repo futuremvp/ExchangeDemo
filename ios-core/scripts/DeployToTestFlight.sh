@@ -52,4 +52,12 @@ curl "http://testflightapp.com/api/builds.json" \
   -F distribution_lists='All' \
   -F notes="Build uploaded automatically."
 
-echo "Uploaded to TestFlight"
+RETVAL=$?
+if [ "$RETVAL" == "0" ]; then
+  echo "Uploaded to TestFlight"
+else
+  echo "Failed to upload to TestFlight"
+fi
+
+exit $RETVAL
+
