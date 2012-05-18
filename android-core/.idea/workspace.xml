@@ -100,7 +100,7 @@
       <file leaf-file-name="testing.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="40" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="1" column="20" selection-start="37" selection-end="89" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +136,7 @@
       <file leaf-file-name="SettingsTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/au/com/suncorpbank/util/SettingsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="71" selection-start="421" selection-end="421" vertical-scroll-proportion="0.28032786">
+            <state line="13" column="80" selection-start="430" selection-end="430" vertical-scroll-proportion="0.28032786">
               <folding />
             </state>
           </provider>
@@ -171,11 +171,11 @@
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/instrument/ScpNativeDriverServlet.java" />
         <option value="$PROJECT_DIR$/ant.properties" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/testing.properties" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/parser/XmlParser.java" />
         <option value="$PROJECT_DIR$/src/au/com/suncorpbank/domain/ExchangeRate.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/test/au/com/suncorpbank/parser/XmlParserTest.java" />
+        <option value="$PROJECT_DIR$/testing.properties" />
         <option value="$PROJECT_DIR$/test/au/com/suncorpbank/util/SettingsTest.java" />
       </list>
     </option>
@@ -823,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="40" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/au/com/suncorpbank/instrument/ScpNativeDriverServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.06365159">
@@ -884,9 +877,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="37" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/au/com/suncorpbank/util/SettingsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="421" selection-end="421" vertical-scroll-proportion="0.28032786">
+        <state line="13" column="80" selection-start="430" selection-end="430" vertical-scroll-proportion="0.28032786">
           <folding />
         </state>
       </provider>
