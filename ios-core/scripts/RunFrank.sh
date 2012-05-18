@@ -25,8 +25,8 @@ export APP_BUNDLE_PATH=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH
 
 pushd $SRCROOT/../mobile-core-acceptence-test
 echo "Running: cucumber"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-rvm use 1.9.3
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# rvm use 1.9.3
 cucumber -f junit -o iOS/reports -r iOS/Frank/features
 # cucumber -r iOS/Frank/features
 popd
