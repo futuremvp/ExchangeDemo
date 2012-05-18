@@ -11,7 +11,7 @@ PRODUCT_NAME = UnitTests
 INFOPLIST_FILE = Unit Tests/ExchangeDemoTests-Info.plist
 
 BUNDLE_LOADER = $(BUILT_PRODUCTS_DIR)/Development.app/Development
-TEST_HOST = "$(BUNDLE_LOADER)"
+TEST_HOST = $(BUNDLE_LOADER)
 WRAPPER_EXTENSION = octest
 
 FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"

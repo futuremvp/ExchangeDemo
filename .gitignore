@@ -3,6 +3,7 @@ bin
 build
 out
 reports
+test-reports
 archives
 *.ser
 *.class

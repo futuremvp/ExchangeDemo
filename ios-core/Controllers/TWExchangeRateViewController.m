@@ -71,6 +71,7 @@
 	xmlData = [[NSMutableData alloc] init];
 	
 	urlConnection = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:YES];
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 }
 
 #pragma mark -
@@ -82,6 +83,8 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+
 	[exchangeRateList removeAllObjects];
 	
 	TWExchangeRateParser *parser = [[TWExchangeRateParser alloc] init];
@@ -95,6 +98,18 @@
 	xmlData = nil;
 	
 	[[self tableView] reloadData];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+	[exchangeRateList removeAllObjects];
+	[[self tableView] reloadData];    
+
+	[urlConnection release];
+	urlConnection = nil;
+	[xmlData release];
+	xmlData = nil;
 }
 
 #pragma mark - 
