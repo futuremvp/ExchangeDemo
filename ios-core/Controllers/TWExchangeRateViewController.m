@@ -132,6 +132,7 @@
 	TWExchangeRate *exchangeRate = [exchangeRateList objectAtIndex:[indexPath row]];
 	cell.textLabel.text = [NSString stringWithFormat:@"%@ (%@)", exchangeRate.countryName, exchangeRate.currencyCode];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"%.4f", exchangeRate.exchangeRate];
+    cell.accessibilityLabel = cell.textLabel.text;
 		
 	return cell;
 }
