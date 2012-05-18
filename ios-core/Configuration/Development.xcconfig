@@ -8,4 +8,4 @@
 
 PRODUCT_NAME = Development
 
-EXCHANGE_SERVICE_URL = localhost:3000/home/exchange.xml
+EXCHANGE_SERVICE_URL = exchange-demo.herokuapp.com/home/exchange.xml

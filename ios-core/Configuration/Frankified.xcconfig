@@ -8,7 +8,7 @@
 
 PRODUCT_NAME = Frankified
 
-EXCHANGE_SERVICE_URL = localhost:3000/home/exchange.xml
+EXCHANGE_SERVICE_URL = exchange-demo.herokuapp.com/home/exchange.xml
 
 LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../mobile-core-acceptence-test/iOS/Frank"
 
