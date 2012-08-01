@@ -126,8 +126,8 @@
               androidjar="${sdk.dir}/platforms/android-14/android.jar"
               rfolder="gen"
               nonConstantId="false"
-              projectLibrariesResName=""
-              projectLibrariesPackageName="">
+			  libraryResFolderPathRefid=""
+			  libraryPackagesRefid="">
             <res path="res"/>
         </aapt>
         <copy todir="${classes.dir}">
