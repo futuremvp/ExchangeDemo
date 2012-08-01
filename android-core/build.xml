@@ -88,13 +88,13 @@
         <pathelement path="${sdk.dir}/tools/lib/androidprefs.jar"/>
     </path>
 
-    <taskdef name="setup"
+    <!-- <taskdef name="setup"
              classname="com.android.ant.NewSetupTask"
              classpathref="android.antlibs"/>
 
     <taskdef name="aapt"
              classname="com.android.ant.AaptExecTask"
-             classpathref="android.antlibs"/>
+             classpathref="android.antlibs"/> -->
 
     <target name="help">
         <echo>Available commands in this build script:
